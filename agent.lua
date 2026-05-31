@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Category Fish"] = {
             "FORGOTTEN"
         },
-        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark","Gladiator Shark","Elshark Gran Maja","Great Whale","Eerie Shark","Giant Squid","Mosasaur Shark","Cryoshade Glider","King Jelly","Panther Eel","Queen Crab","King Crab","Monster Shark","Viridis Lurker","Depthseeker Ray","Robot Kraken","Ancient Lochness Monster","Deepsea Monster Axolotl","Great Whale","Coral Whale","Thresher Shark","Megalodon","Bloodmoon Whale",
+        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark","Gladiator Shark","Elshark Gran Maja","Great Whale","Eerie Shark","Giant Squid","Mosasaur Shark","Cryoshade Glider","King Jelly","Panther Eel","Queen Crab","King Crab","Monster Shark","Viridis Lurker","Depthseeker Ray","Robot Kraken","Ancient Lochness Monster","Deepsea Monster Axolotl","Great Whale","Coral Whale","Thresher Shark","Megalodon","Bloodmoon Whale","Blob Shark","Ghost Shark","Worm Fish","Mutant Runic Koi",
         },
         ["Item Name"] = {
             "Eggy Enchant Stone","Runic Enchant Stone","Evolved Enchant Stone",
@@ -168,7 +168,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
 
-script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
+script_key="8699C38C22B3A49B4BE6612E599CE73E";
 
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
 loadstring(game:HttpGet("https://sc.pebletz.xyz/loader?t=disconnect_detector"))()
