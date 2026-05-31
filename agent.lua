@@ -15,9 +15,9 @@ _G.FishItConfig = _G.FishItConfig or {
       ["Enabled"] = true,
         ["Whitelist Username"] = {"soooyoooo0909","soooyoooo0","ynthnmrtin","moonmart0910","warungminang2","warungminang894","kkndesapenari33","blanknew40","rindaman090910","watanabe11116","warungminang2",},
         ["Category Fish"] = {
-            ""
+            "FORGOTTEN"
         },
-        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark","Gladiator Shark","Elshark Gran Maja","Great Whale","Eerie Shark","Giant Squid","Mosasaur Shark","Cryoshade Glider","King Jelly","Panther Eel","Queen Crab","King Crab","Monster Shark","Viridis Lurker","Depthseeker Ray","Robot Kraken","Ancient Lochness Monster","Deepsea Monster Axolotl","Great Whale","Coral Whale","Thresher Shark",
+        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark","Gladiator Shark","Elshark Gran Maja","Great Whale","Eerie Shark","Giant Squid","Mosasaur Shark","Cryoshade Glider","King Jelly","Panther Eel","Queen Crab","King Crab","Monster Shark","Viridis Lurker","Depthseeker Ray","Robot Kraken","Ancient Lochness Monster","Deepsea Monster Axolotl","Great Whale","Coral Whale","Thresher Shark","Megalodon","Bloodmoon Whale",
         },
         ["Item Name"] = {
             "Eggy Enchant Stone","Runic Enchant Stone","Evolved Enchant Stone",
@@ -61,7 +61,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["WebHook"] = {
         ["Auto Sending"] = true,
         ["Category"] = {
-            "Secret",
+            "Secret","FORGOTTEN",
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {"Evolved Enchant Stone",},{"Eggy Enchant Stone",},{"Runic Enchant Stone",},
@@ -121,6 +121,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Bone Whale",
             "Queen Crab",
             "King Crab",
+            "Coral Whale",
+            "Great Whale",
         },
         ["Second Enchant List"] = {
             "Cursed I",
@@ -166,7 +168,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
 
-script_key="2367F1635FA8DC70C63C261901AB4C43";
+script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
 loadstring(game:HttpGet("https://sc.pebletz.xyz/loader?t=disconnect_detector"))()
