@@ -168,7 +168,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
 
-script_key="8699C38C22B3A49B4BE6612E599CE73E";
+script_key="2367F1635FA8DC70C63C261901AB4C43";
 
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
 loadstring(game:HttpGet("https://sc.pebletz.xyz/loader?t=disconnect_detector"))()
